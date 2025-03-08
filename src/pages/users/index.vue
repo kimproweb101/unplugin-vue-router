@@ -1,6 +1,6 @@
 <template>
   <div>user/index</div>
-  <div>{{ route }}</div>
+  <div>{{ route.meta }}</div>
 </template>
 <script setup>
 import { useRoute } from 'vue-router'
